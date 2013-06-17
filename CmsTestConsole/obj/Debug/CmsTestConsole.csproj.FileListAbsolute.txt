@@ -1,0 +1,11 @@
+D:\SimpleDotNetCms\CmsTestConsole\obj\Debug\CmsTestConsole.csprojResolveAssemblyReference.cache
+D:\SimpleDotNetCms\CmsTestConsole\bin\Debug\CmsTestConsole.exe
+D:\SimpleDotNetCms\CmsTestConsole\bin\Debug\CmsTestConsole.pdb
+D:\SimpleDotNetCms\CmsTestConsole\bin\Debug\Castle.Core.dll
+D:\SimpleDotNetCms\CmsTestConsole\bin\Debug\Castle.Windsor.dll
+D:\SimpleDotNetCms\CmsTestConsole\bin\Debug\SimpleDotNetCms.Core.dll
+D:\SimpleDotNetCms\CmsTestConsole\bin\Debug\SimpleDotNetCms.Core.pdb
+D:\SimpleDotNetCms\CmsTestConsole\bin\Debug\Castle.Core.xml
+D:\SimpleDotNetCms\CmsTestConsole\bin\Debug\Castle.Windsor.xml
+D:\SimpleDotNetCms\CmsTestConsole\obj\Debug\CmsTestConsole.exe
+D:\SimpleDotNetCms\CmsTestConsole\obj\Debug\CmsTestConsole.pdb

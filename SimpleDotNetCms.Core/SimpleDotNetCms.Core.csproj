@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5EC2379C-B939-4C08-A1F4-1E6A5682FED5}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SimpleDotNetCms.Core</RootNamespace>
+    <AssemblyName>SimpleDotNetCms.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Attributes\CmsIdAttribute.cs" />
+    <Compile Include="Attributes\CmsItemAttribute.cs" />
+    <Compile Include="Attributes\CmsItemBaseAttribute.cs" />
+    <Compile Include="ContentProvider.cs" />
+    <Compile Include="CmsEngine.cs" />
+    <Compile Include="Converters\ComplexPropertyValueConverter.cs" />
+    <Compile Include="Converters\IItemConverter.cs" />
+    <Compile Include="Converters\IPropertyValueConverter.cs" />
+    <Compile Include="Converters\IPropertyValueConverterFactory.cs" />
+    <Compile Include="Converters\ItemConverter.cs" />
+    <Compile Include="Converters\PrimitivePropertyValueConverter.cs" />
+    <Compile Include="Converters\PropertyValueConverterBase.cs" />
+    <Compile Include="Converters\PropertyValueConverterFactory.cs" />
+    <Compile Include="Domain\ComplexPropertyValue.cs" />
+    <Compile Include="Extensions\TypeExtensions.cs" />
+    <Compile Include="ICmsRepository.cs" />
+    <Compile Include="IContentProvider.cs" />
+    <Compile Include="Domain\Item.cs" />
+    <Compile Include="Domain\Property.cs" />
+    <Compile Include="Domain\PrimitivePropertyValue.cs" />
+    <Compile Include="Domain\PropertyValueBase.cs" />
+    <Compile Include="ICmsEngine.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\SimpleXmlRepository.cs" />
+    <Compile Include="Supporting\CmsItemFactory.cs" />
+    <Compile Include="Supporting\IItemManager.cs" />
+    <Compile Include="Supporting\ItemManager.cs" />
+    <Compile Include="Supporting\Reflection\ObjectReader.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

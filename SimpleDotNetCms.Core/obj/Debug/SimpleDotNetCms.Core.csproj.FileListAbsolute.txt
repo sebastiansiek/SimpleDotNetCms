@@ -1,0 +1,5 @@
+D:\SimpleDotNetCms\SimpleDotNetCms.Core\bin\Debug\SimpleDotNetCms.Core.dll
+D:\SimpleDotNetCms\SimpleDotNetCms.Core\bin\Debug\SimpleDotNetCms.Core.pdb
+D:\SimpleDotNetCms\SimpleDotNetCms.Core\obj\Debug\SimpleDotNetCms.Core.csprojResolveAssemblyReference.cache
+D:\SimpleDotNetCms\SimpleDotNetCms.Core\obj\Debug\SimpleDotNetCms.Core.dll
+D:\SimpleDotNetCms\SimpleDotNetCms.Core\obj\Debug\SimpleDotNetCms.Core.pdb

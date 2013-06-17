@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDotNetCms.Core", "SimpleDotNetCms.Core\SimpleDotNetCms.Core.csproj", "{5EC2379C-B939-4C08-A1F4-1E6A5682FED5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CmsTestConsole", "CmsTestConsole\CmsTestConsole.csproj", "{060052E2-B583-404B-945E-4BA90F891582}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{FA9C7107-59A6-4D87-A0C6-D84DA6868294}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EC2379C-B939-4C08-A1F4-1E6A5682FED5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EC2379C-B939-4C08-A1F4-1E6A5682FED5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EC2379C-B939-4C08-A1F4-1E6A5682FED5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EC2379C-B939-4C08-A1F4-1E6A5682FED5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{060052E2-B583-404B-945E-4BA90F891582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{060052E2-B583-404B-945E-4BA90F891582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{060052E2-B583-404B-945E-4BA90F891582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{060052E2-B583-404B-945E-4BA90F891582}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
