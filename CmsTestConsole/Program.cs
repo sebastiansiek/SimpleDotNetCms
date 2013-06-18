@@ -5,6 +5,7 @@ using System.Text;
 using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.Resolvers.SpecializedResolvers;
 using Castle.Windsor;
+using Castle.Windsor.Installer;
 using SimpleDotNetCms.Core;
 using SimpleDotNetCms.Core.Attributes;
 using SimpleDotNetCms.Core.Converters;
@@ -22,16 +23,10 @@ namespace CmsTestConsole
             _container = new WindsorContainer();
 
             _container.Kernel.Resolver.AddSubResolver(new CollectionResolver(_container.Kernel));
-
-            //_container.Register(Classes.FromAssemblyInDirectory(new AssemblyFilter("Bin")).BasedOn<IPropertyValueConverter>().WithService.Base());
+            _container.Install(FromAssembly.Containing<ICmsEngine>());
+            
             _container.Register(Component.For<ICmsEngine>().ImplementedBy<CmsEngine>().LifestyleTransient());
-            _container.Register(Component.For<IPropertyValueConverter>().ImplementedBy<PrimitivePropertyValueConverter>());
-            _container.Register(Component.For<IPropertyValueConverter>().ImplementedBy<ComplexPropertyValueConverter>());
-            _container.Register(Component.For<IItemManager>().ImplementedBy<ItemManager>());
-            _container.Register(Component.For<ICmsRepository>().ImplementedBy<SimpleXmlRepository>());
-            _container.Register(Component.For<IItemConverter>().ImplementedBy<ItemConverter>());
-            _container.Register(Component.For<IPropertyValueConverterFactory>().ImplementedBy<PropertyValueConverterFactory>());
-            _container.Register(Component.For<ICmsItemFactory>().ImplementedBy<CmsItemFactory>());
+            _container.Register(Component.For<ICmsRepository>().ImplementedBy<SimpleXmlRepository>().DependsOn(Dependency.OnValue<SimpleXmlRepositoryConfiguration>(new SimpleXmlRepositoryConfiguration() { FileRepositoryPath = @"D:\XmlRepository\" } )));
         }
 
         static void Main(string[] args)

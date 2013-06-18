@@ -9,3 +9,14 @@ D:\SimpleDotNetCms\CmsTestConsole\bin\Debug\Castle.Core.xml
 D:\SimpleDotNetCms\CmsTestConsole\bin\Debug\Castle.Windsor.xml
 D:\SimpleDotNetCms\CmsTestConsole\obj\Debug\CmsTestConsole.exe
 D:\SimpleDotNetCms\CmsTestConsole\obj\Debug\CmsTestConsole.pdb
+D:\GitHub\SimpleDotNetCms\CmsTestConsole\obj\Debug\CmsTestConsole.exe
+D:\GitHub\SimpleDotNetCms\CmsTestConsole\obj\Debug\CmsTestConsole.pdb
+D:\GitHub\SimpleDotNetCms\CmsTestConsole\bin\Debug\CmsTestConsole.exe
+D:\GitHub\SimpleDotNetCms\CmsTestConsole\bin\Debug\CmsTestConsole.pdb
+D:\GitHub\SimpleDotNetCms\CmsTestConsole\bin\Debug\Castle.Core.dll
+D:\GitHub\SimpleDotNetCms\CmsTestConsole\bin\Debug\Castle.Windsor.dll
+D:\GitHub\SimpleDotNetCms\CmsTestConsole\bin\Debug\SimpleDotNetCms.Core.dll
+D:\GitHub\SimpleDotNetCms\CmsTestConsole\bin\Debug\SimpleDotNetCms.Core.pdb
+D:\GitHub\SimpleDotNetCms\CmsTestConsole\bin\Debug\Castle.Core.xml
+D:\GitHub\SimpleDotNetCms\CmsTestConsole\bin\Debug\Castle.Windsor.xml
+D:\GitHub\SimpleDotNetCms\CmsTestConsole\obj\Debug\CmsTestConsole.csprojResolveAssemblyReference.cache

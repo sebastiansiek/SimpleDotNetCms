@@ -8,9 +8,11 @@ namespace SimpleDotNetCms.Core.Repositories
 {
     public class SimpleXmlRepository : ICmsRepository
     {
-        public SimpleXmlRepository()
+        private readonly SimpleXmlRepositoryConfiguration _configuration;
+
+        public SimpleXmlRepository(SimpleXmlRepositoryConfiguration configuration)
         {
-            
+            _configuration = configuration;
         }
 
         public void AddOrUpdate(Item cmsItem)
@@ -32,7 +34,8 @@ namespace SimpleDotNetCms.Core.Repositories
 
         public Item Find(string objectId, string valueType)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
+            return null;
         }
     }
 }

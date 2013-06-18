@@ -3,3 +3,12 @@ D:\SimpleDotNetCms\SimpleDotNetCms.Core\bin\Debug\SimpleDotNetCms.Core.pdb
 D:\SimpleDotNetCms\SimpleDotNetCms.Core\obj\Debug\SimpleDotNetCms.Core.csprojResolveAssemblyReference.cache
 D:\SimpleDotNetCms\SimpleDotNetCms.Core\obj\Debug\SimpleDotNetCms.Core.dll
 D:\SimpleDotNetCms\SimpleDotNetCms.Core\obj\Debug\SimpleDotNetCms.Core.pdb
+D:\GitHub\SimpleDotNetCms\SimpleDotNetCms.Core\bin\Debug\SimpleDotNetCms.Core.dll
+D:\GitHub\SimpleDotNetCms\SimpleDotNetCms.Core\bin\Debug\SimpleDotNetCms.Core.pdb
+D:\GitHub\SimpleDotNetCms\SimpleDotNetCms.Core\obj\Debug\SimpleDotNetCms.Core.csprojResolveAssemblyReference.cache
+D:\GitHub\SimpleDotNetCms\SimpleDotNetCms.Core\obj\Debug\SimpleDotNetCms.Core.dll
+D:\GitHub\SimpleDotNetCms\SimpleDotNetCms.Core\obj\Debug\SimpleDotNetCms.Core.pdb
+D:\GitHub\SimpleDotNetCms\SimpleDotNetCms.Core\bin\Debug\Castle.Core.dll
+D:\GitHub\SimpleDotNetCms\SimpleDotNetCms.Core\bin\Debug\Castle.Windsor.dll
+D:\GitHub\SimpleDotNetCms\SimpleDotNetCms.Core\bin\Debug\Castle.Core.xml
+D:\GitHub\SimpleDotNetCms\SimpleDotNetCms.Core\bin\Debug\Castle.Windsor.xml
